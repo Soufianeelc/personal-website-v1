@@ -1,0 +1,20 @@
+@font-face {
+    font-family: graphik-bold;
+    src: url(./fonts/GraphikArabic-Bold.woff2);
+}
+@font-face {
+    font-family: graphik-regular;
+    src: url(./fonts/GraphikArabic-Regular.woff2);
+}
+@font-face {
+    font-family: graphik-super;
+    src: url(./fonts/GraphikArabic-Super.woff2);
+}
+@font-face {
+    font-family: graphik-semibold;
+    src: url(./fonts/GraphikArabic-SemiBold.woff2);
+}
+@font-face {
+    font-family: graphik-medium;
+    src: url(./fonts/GraphikArabic-Medium.woff2);
+}
