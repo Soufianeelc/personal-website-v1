@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.html'],
+  darkMode: 'class',
   theme: {
     screens: {
       sm: '480px',
@@ -19,11 +20,7 @@ module.exports = {
         "graphikRegular": ['graphik-regular'],
         "graphikSuper": ['graphik-super'],
         "graphikSemibold": ['graphik-semibold']
-      
-
       }
-      
-
     }
   },
   plugins: [],

@@ -32,25 +32,22 @@
     @apply font-graphikRegular text-lg hover:text-darkRed;
 }
 .main-heading{
-    @apply font-bold text-5xl md:text-5xl text-slate-700 font-graphikSuper;
+    @apply font-bold text-5xl md:text-5xl text-slate-700 font-graphikSuper dark:text-white;
 }
 .sub-heading{
     @apply font-graphikRegular text-darkBlue;
 }
 .btn{
-    @apply hidden md:flex p-3 w-48 bg-darkRed font-graphikRegular rounded-md justify-center text-white hover:text-white;
+    @apply flex p-3 w-48 bg-darkRed font-graphikRegular rounded-md justify-center text-white hover:text-white;
 }
 .description-paragraph{
-    @apply font-graphikRegular text-sm  text-white md:w-80 self-start text-center m-0;
+    @apply font-graphikRegular text-white text-sm md:w-80 self-start m-0;
 }
 .grid-item{
     @apply  flex justify-center items-center rounded-md px-3 py-3;
 }
 .grid-item-text{
     @apply text-2xl font-graphikBold ;
-}
-body{
-    @apply bg-blue-100;
 }
 .tech-stack-item{
     @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-2xl;

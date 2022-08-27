@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -16,10 +16,10 @@
     <title>soufianeelc</title>
 </head>
 
-<body>
+<body class="dark:bg-slate-800">
 
     <!--Navbar-->
-    <nav class="container mx-auto px-6 pt-4">
+    <nav class="container mx-auto px-6 pt-4 md:px-16">
 
         <div class="flex justify-between items-center">
             <!--Logo-->
@@ -35,6 +35,11 @@
                 <a href="#" class="menu-item"> Projects </a>
 
             </div> -->
+
+            <button id="switch-btn" 
+        class="flex p-3 w-12 bg-gray-300 font-graphikRegular rounded-md justify-center text-white hover:text-white;">
+            <img src="./img/sunny.png" class="w-[40px]" id="icon" alt="">
+        </button>
         </div>
     </nav>
 
@@ -52,7 +57,7 @@
 
                 <!--Sub Heading-->
                 <p class="sub-heading">
-                    & I enjoy my secret world during nights &#127747;.
+                    & I enjoy my secret world during nights.
                 </p>
 
                 <!--Button-->
@@ -61,31 +66,30 @@
             </div>
 
             <!-- Left Side Image -->
-            <img src="./img/illustration.jpg" alt="Picture Of Soufiane"
+            <img src="./img/013-man-airplane-fly.svg" alt="Picture Of Soufiane"
                 class="hidden self-start md:block rounded-tl-3xl md:w-80">
 
         </div>
     </section>
-    <h1 class="container mx-auto md:px-24 py-6 font-graphikBold text-4xl my-24 px-4 text-slate-700"> My story &#9889;
-    </h1>
 
     <!-- About Me Section -->
     <section>
+        <div class="container mx-auto bg-blue-400 md:rounded-xl space-y-12 py-4 mt-24 md:px-24">
+            <h1 class="font-graphikBold text-4xl  space-y-6 px-4  text-white"> My story </h1>
+            
+                <div class="flex justify-evenly flex-col px-4 space-y-4 md:space-y-0 md:flex-row">
+                    <img src="./img/me.webp" alt="Picture Of Soufiane" id="portrait" class="w-1/3 max-w-xs rounded-xl">
+                    <!--Description-->
+                    <p class="description-paragraph">
+                        My name is Soufiane and I am a web developer
+                        specialized in front-end applications. The first time
+                        I learned about web development was in 2019 and acquired a strong
+                        knowledge and expertise in this field over time.
 
-
-        <div class="container mx-auto flex justify-center">
-            <div class="mx-2 flex flex-col items-center bg-blue-400 w-fit space-y-8 pb-6 px-14 rounded-md">
-
-                <img src="./img/me.webp" alt="Picture Of Soufiane" id="portrait" class=" w-32 -mt-14 rounded-xl">
-
-                <!--Description-->
-                <p class="description-paragraph">
-                    My name is Soufiane and I am a web developer
-                    specialized in front-end applications. The first time
-                    I learned about web development was in 2019 and acquired a strong
-                    knowledge and expertise in this field over time.
-                </p>
-            </div>
+                        <img class="w-1/2 mt-4 self-end"src="./img/2-cropped.svg" alt="">
+                    </p>
+                </div>
+            
         </div>
 
     </section>
@@ -93,19 +97,21 @@
     <!--Tech Stack-->
     <section>
         <!--Section header-->
-        <h1 class="container mx-auto md:px-24 py-6 font-graphikBold text-4xl mt-24 px-4 text-slate-700 title"> Tech
-            Stack</h1>
-
-        <div class="container mx-auto px-6 mt-4 flex justify-center md:w-1/2">
-            <div class="flex flex-wrap">
-                <div class="tech-stack-item"> HTML </div>
-                <div class="tech-stack-item"> CSS </div>
-                <div class="tech-stack-item"> TailwindCSS </div>
-                <div class="tech-stack-item"> Javascript </div>
-                <div class="tech-stack-item"> C/C++ </div>
-                <div class="tech-stack-item"> Shell/Bash </div>
-                <div class="tech-stack-item"> Git/Github </div>
-                <div class="tech-stack-item"> Typescript </div>
+        <div class="container mx-auto mt-8 space-y-4">
+            <h1 class="md:px-24 py-6 font-graphikBold text-4xl  px-4 text-slate-700"> Tech
+                Stack</h1>
+            <div class="container mx-auto px-6 flex justify-center md:w-1/2">
+                <div class="flex flex-wrap">
+                    <div class="tech-stack-item"> HTML </div>
+                    <div class="tech-stack-item"> CSS </div>
+                    <div class="tech-stack-item"> TailwindCSS </div>
+                    <div class="tech-stack-item"> Javascript </div>
+                    <div class="tech-stack-item"> C/C++ </div>
+                    <div class="tech-stack-item"> Shell/Bash </div>
+                    <div class="tech-stack-item"> Git/Github </div>
+                    <div class="tech-stack-item"> Typescript </div>
+                    <div class="tech-stack-item"> NodeJs </div>
+                </div>
             </div>
         </div>
 
@@ -114,21 +120,33 @@
     <!--Let's connect -->
 
     <section id="contact">
-        <div class="container mx-auto md:px-24 space-y-8 py-6  my-24 px-4 text-slate-700">
+        <div class="container mx-auto md:px-24 space-y-8 py-6  my-16 px-4 text-slate-700">
             <h1 class="font-graphikBold text-4xl">Let's Connect</h1>
-            <div class="">
+            <!-- <div class="">
+                <ol>
+                    <li class="font-graphikRegular text-sm"> I'm mostly active on
+                        <a href="" class="link">Twitter</a> and <a class="link">LinkedIn</a>.
+                    </li>
+                    <li class="font-graphikRegular text-sm">
+                        Follow me on <a href="" class="link">github</a> to see my future projects.
+                    </li>
+                    <li class="font-graphikRegular text-sm"> Follow me on
+                        <a href="" class="link">hashnode</a> to read my blogs.
+                    </li>
+                </ol>
+            </div> -->
 
-                <li class="font-graphikRegular text-sm"> I'm mostly active on
-                    <a href="" class="link">Twitter</a> and <a class="link">LinkedIn</a>.
-                </li>
-                <li class="font-graphikRegular text-sm">
-                    Follow me on <a href="" class="link">github</a> to see my future projects.
-                </li>
-                <li class="font-graphikRegular text-sm"> Follow me on 
-                    <a href="" class="link">hashnode</a> to read my blogs.
-                </li>
-
-                <p class="mt-4 font-graphikBold text-darkRed">My DMs are always open, don't be shy to contact me!</p>
+            <div class="flex flex-row flex-wrap">
+                <div class="bg-blue-500 font-graphikRegular px-4 py-4 text-white w-1/2 mx-2 my-2 h-16 rounded-xl">
+                    <p class="font-graphikRegular text-sm"> I'm mostly active on
+                        <a href="" >Twitter</a> and <a>LinkedIn</a>.
+                    </p>
+                </div>
+                <div class="bg-blue-500 font-graphikRegular text-white">
+                    <p class="font-graphikRegular text-sm"> I'm mostly active on
+                        <a href="">Twitter</a> and <a >LinkedIn</a>.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -136,13 +154,11 @@
 
     <!--Footer-->
     <footer>
-        <div class="container flex justify-center mx-auto px-6 py-6  text-slate-600 font-graphikRegular mt-24">
+        <div class="container flex justify-center flex-col mx-auto px-6 py-6  text-slate-600 font-graphikRegular mt-24">
             <p class="text-center"> Made by @soufianeelc using <a class="text-bold"
-                    href="http://facebook.com">TailwindCSS </a> &copy;<span id="current-year"></span></p>
-
+                    href="http://facebook.com">TailwindCSS </a> &copy;<span id="current-year"></span>
+            </p>
         </div>
-        </div>
-
     </footer>
 
 
