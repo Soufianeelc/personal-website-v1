@@ -38,7 +38,7 @@
     @apply font-graphikRegular text-darkBlue;
 }
 .btn{
-    @apply flex p-3 w-48 bg-darkRed font-graphikRegular rounded-md justify-center text-white hover:text-white;
+    @apply flex p-3 w-48 bg-darkRed font-graphikRegular rounded-3xl justify-center text-white hover:text-white;
 }
 .description-paragraph{
     @apply font-graphikRegular text-white text-sm md:w-80 self-start m-0;
