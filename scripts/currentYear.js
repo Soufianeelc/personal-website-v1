@@ -10,6 +10,8 @@ const html = document.querySelector('html')
 const btn = document.getElementById('switch-btn')
 const icon = document.getElementById('icon')
 
+localStorage.setItem("theme", "light")
+
 let theme = 'light';
 
 btn.addEventListener('click',() => {
