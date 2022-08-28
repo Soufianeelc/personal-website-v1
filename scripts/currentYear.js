@@ -19,11 +19,11 @@ btn.addEventListener('click',() => {
     if(theme === 'light'){
         html.classList.add('dark')
         theme = 'dark'
-        icon.src = './img/half-moon.png'
+        icon.src = './img/sunny.png'
     }
     else{
         html.classList.remove('dark')
-        icon.src = './img/sunny.png'
+        icon.src = './img/half-moon.png'
         theme = 'light'
 
     }
