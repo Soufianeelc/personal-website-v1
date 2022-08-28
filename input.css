@@ -61,3 +61,6 @@
 .theme-switch{
     @apply flex p-3 w-12 font-graphikRegular rounded-md justify-center text-white hover:text-white;
 }
+#item1{
+    background-image: url(./img/075-team-communication.svg);
+}
