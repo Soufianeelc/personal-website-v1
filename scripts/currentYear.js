@@ -23,7 +23,7 @@ btn.addEventListener('click',() => {
     }
     else{
         html.classList.remove('dark')
-        icon.src = './img/icons8-half-moon-32.png'
+        icon.src = './img/halfmoon.png'
         theme = 'light'
 
     }

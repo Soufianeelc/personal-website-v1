@@ -38,10 +38,10 @@
     @apply font-graphikRegular text-darkBlue dark:text-gray-100;
 }
 .btn{
-    @apply flex p-3 w-48 bg-darkRed font-graphikRegular rounded-3xl justify-center text-white hover:text-white;
+    @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl justify-center text-white hover:text-white;
 }
 .description-paragraph{
-    @apply font-graphikRegular text-white text-sm md:w-80 self-start m-0;
+    @apply font-graphikRegular text-white md:w-80 self-start m-0;
 }
 .grid-item{
     @apply  flex justify-center items-center rounded-md px-3 py-3;
@@ -53,7 +53,7 @@
     @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-2xl;
 }
 .item{
-    @apply border-2 border-blue-400 bg-blue-400 text-white p-1 text-sm rounded-md font-graphikRegular w-24;
+    @apply border-2 border-blue-400 bg-blue-400 text-white p-1 text-center text-sm rounded-md font-graphikRegular w-24;
 }
 .item-text{
     @apply font-graphikRegular text-sm;
@@ -61,6 +61,12 @@
 .theme-switch{
     @apply flex p-3 w-12 font-graphikRegular rounded-md justify-center text-white hover:text-white;
 }
-#item1{
-    background-image: url(./img/075-team-communication.svg);
+.card{
+    @apply bg-blue-500 px-6 py-6 rounded-md flex flex-col items-center justify-center space-y-4;
+}
+.card-image{
+    @apply rounded-md w-80;
+}
+body{
+    overflow-x: hidden;
 }
