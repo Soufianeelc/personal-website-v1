@@ -726,6 +726,10 @@ video {
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.self-center {
+  align-self: center;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -1116,6 +1120,10 @@ body{
     flex-direction: row-reverse;
   }
 
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:justify-evenly {
     justify-content: space-evenly;
   }
@@ -1130,6 +1138,12 @@ body{
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3rem * var(--tw-space-x-reverse));
+    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:px-16 {
