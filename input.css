@@ -70,3 +70,6 @@
 body{
     overflow-x: hidden;
 }
+.listItem{
+    @apply font-graphikRegular text-lg
+}
