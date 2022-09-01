@@ -50,7 +50,7 @@
     @apply text-2xl font-graphikBold ;
 }
 .tech-stack-item{
-    @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-2xl;
+    @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-xl;
 }
 .item{
     @apply border-2 border-blue-400 bg-blue-400 text-white p-1 text-center text-sm rounded-md font-graphikRegular w-24;
