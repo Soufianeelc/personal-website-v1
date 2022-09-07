@@ -41,13 +41,10 @@
     @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl justify-center text-white hover:text-white;
 }
 .description-paragraph{
-    @apply font-graphikRegular text-white md:w-80 self-start m-0;
+    @apply font-graphikRegular text-darkBlue dark:text-white text-sm lg:text-lg self-start m-0 lg:w-96;
 }
-.grid-item{
-    @apply  flex justify-center items-center rounded-md px-3 py-3;
-}
-.grid-item-text{
-    @apply text-2xl font-graphikBold ;
+.section-title{
+    @apply font-graphikBold text-4xl  space-y-6 px-4  text-darkBlue dark:text-white;
 }
 .tech-stack-item{
     @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-xl;
@@ -62,13 +59,16 @@
     @apply flex p-3 w-12 font-graphikRegular rounded-md justify-center text-white hover:text-white;
 }
 .card{
-    @apply bg-blue-500 px-6 py-6 rounded-md flex flex-col items-center justify-center space-y-4;
+    @apply bg-blue-500 rounded-md flex flex-col border-2 border-blue-500 md:w-1/2 ;
 }
 .card-image{
-    @apply rounded-md w-80;
+    @apply rounded-t-md;
 }
 body{
     overflow-x: hidden;
+}
+body{
+    @apply xl:px-64
 }
 .listItem{
     @apply font-graphikRegular text-lg
