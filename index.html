@@ -23,7 +23,7 @@
 <body class="dark:bg-slate-900">
 
     <!--Navbar-->
-    <nav class="container mx-auto px-6 pt-4 md:px-16">
+    <nav class="container mx-auto px-6 py-4 md:px-16">
         <div class="flex justify-between items-center">
             <!--Logo-->
             <div class="pt-2">
@@ -51,10 +51,7 @@
                 </h1>
 
                 <!--Sub Heading-->
-                <p class="sub-heading">
-                    & I enjoy my secret world during nights.
-                </p>
-
+                
                 <!--Button-->
                 <a href="#contact" class="btn">Let's connect</a>
 
@@ -69,8 +66,8 @@
 
     <!-- About Me Section -->
     <section>
-        <div class="container mx-auto  space-y-12 py-4 mt-24 md:px-24 ">
-            <h1 class="section-title"> My story </h1>
+        <div class="container mx-auto  space-y-12 py-4 mt-24 md:px-24 relative">
+            <h1 class="section-title"> Who am I</h1>
 
             <div class="flex flex-col px-4 space-y-4 md:space-y-0 md:flex-row">
                 <!--  -->
@@ -89,117 +86,67 @@
 
                     </p>
                 </div>
+
+                
             </div>
+            <div class="bg-red-500 w-96 h-96 absolute -top-10 -right-10 blur-3xl -z-10 rounded-full "></div>
         </div>
     </section>
 
     <!--*****************************************************************************************-->
 
     <!--Tech Stack-->
-    <section>
-        <!--Section header-->
-        <div class="container mx-auto md:px-24 space-y-8 py-6  mt-16 px-2">
-            <h1 class="section-title">Technologies & Tools</h1>
-            <div class="container mx-auto px-6 flex justify-center">
-                <div class="flex flex-wrap">
-                    <div class="tech-stack-item"> HTML </div>
-                    <div class="tech-stack-item"> CSS </div>
-                    <div class="tech-stack-item"> TailwindCSS </div>
-                    <div class="tech-stack-item"> Javascript </div>
-                    <div class="tech-stack-item"> C/C++ </div>
-                    <div class="tech-stack-item"> Shell/Bash </div>
-                    <div class="tech-stack-item"> Git/Github </div>
-                    <div class="tech-stack-item"> ReactJs </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!--******************************************************************************************-->
-    <section>
-        <div class="container mx-auto md:px-24 py-6  mt-16 px-2 space-y-8 ">
 
-            <h1 class="section-title">Latest Projects</h1>
-
-            <div class="flex flex-col md:flex-row  space-y-4 justify-center md:space-x-8 md:space-y-0">
-
-                <div class="card">
-
-                    <div class="flex flex-col space-y-4">
-                        <div id="item1" class="rounded-xl">
-                            <img src="./img/screenshot1.png" class="card-image" alt="" loading="lazy">
-                        </div>
-                        <div class="flex flex-col px-4 py-2 space-y-4">
-                            <h3 class="font-graphikBold text-white"> Landing Page </h3>
-                            <p class="font-graphikRegular text-sm text-slate-200">
-                                A fully responsive landing page made using TailwindCSS.
-                            </p>
-                            <a class="font-graphikBold text-white underline self-start">See More</a> 
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <div class="flex flex-col space-y-4">
-                        <div id="item1" class="rounded-xl p-0">
-                            <img src="./img/screenshot2.png" class="card-image" alt="" loading="lazy">
-                        </div>
-                        <div class="flex flex-col px-4 py-2 space-y-4">
-                            <h3 class="font-graphikBold text-white"> Personal Website </h3>
-                            <p class="font-graphikRegular text-sm text-slate-200">
-                                The first version of my personal website made using TailwindCSS.
-                            </p>
-                            <a class="font-graphikBold text-white underline self-start">See More</a> 
-                        </div>
-                        
-                    </div>
-
-                </div>
-
-
+    <!-- Pattern design -->
+    <section class="container mx-auto md:px-24 mt-16 relative">
+        
+        <div class="bg-blue-100 mx-2 px-8 py-8 flex justify-center items-center rounded-md z-20 bg-opacity-60">
+            <div class="px-2 flex space-x-16">
+                <h1 class="md:text-4xl font-graphikBold text-blue-600">Learn.</h1>
+                <h1 class="md:text-4xl font-graphikBold text-blue-600">Build.</h1>
+                <h1 class="md:text-4xl font-graphikBold text-blue-600">Push.</h1>
+                <h1 class="md:text-4xl font-graphikBold text-blue-600">Repeat.</h1>
             </div>
-
         </div>
+
     </section>
-
-
+ 
     <!--******************************************************************************************-->
     <!--Let's connect -->
+    
     <section id="contact">
         <div class="container mx-auto md:px-24 space-y-8 py-6  mt-16 px-2">
             <h1 class="section-title">Let's Connect</h1>
 
-            <div class="flex flex-col md:flex-row md:justify-center md:space-x-12 space-y-8">
+            <div class="flex flex-col md:flex-row justify-between text-slate-700 px-4 dark:text-white">
+                <ul>
+                    <li class="listItem">
+                        I'm mostly active on <strong> Twitter</strong> and <strong>LinkedIn</strong> .
+                    </li>
+                    <li class="listItem">
+                        I create content on <strong>Instagram</strong> .
+                    </li>
+                    <li class="listItem">
+                        Read my articles on <strong>Hashnode</strong> .
+                    </li>
+                </ul>
 
-                <div id="avatar" class=" w-24 lg:w-32">
-                    <img src="./img/avatar.svg" alt="">
-                </div>
-
-                <div class="flex flex-col items-center text-slate-700 dark:text-white">
-                    <ul>
-                        <li class="listItem">
-                            I'm mostly active on <strong> Twitter</strong> and <strong>LinkedIn</strong> .
-                        </li>
-                        <li class="listItem">
-                            I create content on <strong>Instagram</strong> .
-                        </li>
-                        <li class="listItem">
-                            Read my articles on <strong>Hashnode</strong> .
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
-
         </div>
     </section>
+
+    
 
     <!--************************************************************************************************-->
 
     <!--Footer-->
     <footer>
         <div
-            class="container md:flex-row-reverse flex justify-center items-center flex-col mx-auto px-6 py-6 space-y-4 md:space-y-0 text-slate-600 font-graphikRegular mt-6 md:mt-24 dark:text-white">
+            class="container flex justify-center items-center flex-col mx-auto px-6 py-6 space-y-4 bg-blue-800 text-white font-graphikRegular mt-6 md:mt-24 dark:text-white">
 
             <div class="flex space-x-4 mx-4">
                 <div>
@@ -210,25 +157,25 @@
                 <div>
                     <a href="https://www.linkedin.com/in/soufianeelc" target="_blank" rel="noopener noreferrer">
                         <img src="./img/social-icons/linkedin.svg" alt="">
-                        
+
                     </a>
                 </div>
                 <div>
                     <a href="https://instagram.com/soufianeeelc" target="_blank">
                         <img src="./img/social-icons/instagram.svg" alt="">
-                        
+
                     </a>
                 </div>
                 <div>
                     <a href="https://github.com/soufianeelc" target="_blank">
                         <img src="./img/social-icons/github.svg" alt="">
-                        
+
                     </a>
                 </div>
                 <div>
                     <a href="https://soufianeelc.hashnode.dev" target="_blank">
-                        <img src="./img/social-icons/hashnode.svg" alt=""> 
-                        
+                        <img src="./img/social-icons/hashnode.svg" alt="">
+
                     </a>
                 </div>
             </div>

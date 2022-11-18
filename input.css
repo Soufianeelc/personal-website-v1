@@ -27,7 +27,9 @@
     src: url(./fonts/GraphikArabic-Medium.woff2);
     font-display: swap;
 }
-
+body{
+    overflow-x: hidden;
+}
 .menu-item{
     @apply font-graphikRegular text-lg hover:text-darkRed;
 }
@@ -38,13 +40,13 @@
     @apply font-graphikRegular text-darkBlue dark:text-gray-100;
 }
 .btn{
-    @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl justify-center text-white hover:text-white;
+    @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl  mt-4 justify-center text-white hover:bg-blue-300 hover:text-blue-600;
 }
 .description-paragraph{
-    @apply font-graphikRegular text-darkBlue dark:text-white text-sm lg:text-lg self-start m-0 lg:w-96;
+    @apply font-graphikRegular text-black dark:text-white text-sm lg:text-lg self-start m-0;
 }
 .section-title{
-    @apply font-graphikBold text-4xl  space-y-6 px-4  text-darkBlue dark:text-white;
+    @apply font-graphikBold text-4xl  space-y-6 px-4  text-darkRed dark:text-darkRed;
 }
 .tech-stack-item{
     @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-xl;
@@ -66,10 +68,31 @@
 }
 body{
     overflow-x: hidden;
+    overflow-x: hidden;
 }
 body{
     @apply xl:px-64
 }
 .listItem{
-    @apply font-graphikRegular text-lg
+    @apply font-graphikRegular text-sm;
 }
+/* .pattern{
+    @apply text-5xl font-graphikBold text-slate-500 dark:text-white;
+}
+.common{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+#learn{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    background-image: -webkit-linear-gradient(90deg, #89F7FE, #66A6FF);
+}
+#build{
+    background-image: -webkit-linear-gradient(90deg, #3378FF, #9442FE);
+}
+#push{
+    background-image: -webkit-linear-gradient(90deg, #9EF9D8, #CAF6BF);
+} */
