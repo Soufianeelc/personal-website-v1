@@ -9,6 +9,7 @@
                                       specialized in front-end applications. The first time
                                       I learned about web development was in 2019 and acquired a strong
                                       knowledge and expertise in this field over time.">
+    <meta name="theme-color" content="#1bb566">
 
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./fonts.config.css">
@@ -26,8 +27,8 @@
     <nav class="container mx-auto px-6 py-4 md:px-16 overflow-x-hidden">
         <div class="flex justify-between items-center">
             <!--Logo-->
-            <div class="pt-2">
-                <img src="./img/logo.png" class="w-1/2 h-1/2" alt="Page logo">
+            <div class="pt-0">
+                <h2 class="font-graphikBold text-4xl text-darkRed">soufianeelc.</h2>
             </div>
 
             <!--Dark mode switch-->
@@ -41,24 +42,22 @@
 
     <!-- Hero Section-->
     <section id="Hero">
-        <div class="container mx-auto flex px-6 md:space-x-16 md:px-24 my-16 mb-6 md:my-32 md:flex-row">
+        <div class="container mx-auto flex px-6 md:space-x-16 md:px-24 my-16 mb-6 md:my-32 md:flex-row relative">
             <!--Right Side -->
             <div class="flex flex-col space-y-6">
 
                 <!--Main Heading-->
                 <h1 class="main-heading">
-                    Hi! &#128075; I'm Soufiane. <br> I'm a Front-end web developer <br> 
+                    Hi! &#128075; I'm Soufiane. <br> I'm a Front-end web developer <br>
                 </h1>
 
                 <!--Sub Heading-->
-                
+
                 <!--Button-->
                 <a href="#contact" class="btn">Let's connect</a>
 
             </div>
-            <div id="avatar" class="hidden lg:flex w-24 lg:w-32 self-start">
-                <img src="./img/avatar.svg" alt="">
-            </div>
+            
         </div>
     </section>
 
@@ -66,13 +65,13 @@
 
     <!-- About Me Section -->
     <section>
-        <div class="container mx-auto  space-y-12 py-4 mt-24 md:px-24 relative">
+        <div class="container mx-auto md:px-24 space-y-8 py-6  mt-16 px-2">
             <h1 class="section-title"> Who am I</h1>
 
             <div class="flex flex-col px-4 space-y-4 md:space-y-0 md:flex-row">
                 <!--  -->
                 <!--Description-->
-                <div class="flex flex-col space-y-4">
+                <div class="flex flex-col space-y-4 relative">
                     <p class="description-paragraph">
                         My name is Soufiane and I am a web developer
                         specialized in front-end applications. The first time
@@ -85,70 +84,136 @@
                         If you have any questions, think we're a fit or just want to say hi, feel free to reach me out.
 
                     </p>
+
+                    <div class="bg-red-600 w-96 h-96 absolute -top-10 -right-20 blur-3xl -z-10 overflow-hidden rounded-full bg-opacity-50 ">
+                    </div>
+                    
                 </div>
 
-                
+
             </div>
-            <div class="bg-red-500 w-96 h-96 absolute -top-10 -right-10 blur-3xl -z-10 overflow-x-hidden rounded-full "></div>
+            
         </div>
     </section>
 
     <!--*****************************************************************************************-->
 
     <!--Tech Stack-->
-    
+
 
     <!--******************************************************************************************-->
 
     <!-- Pattern design -->
-    <section class="container mx-auto md:px-24 mt-16 relative">
-        
-        <div class=" container bg-blue-100 mx-2 px-8 py-8 flex items-center rounded-md px-2 scrollbar-hide flex space-x-8 overflow-x-scroll z-20 bg-opacity-40">
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Learn.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Build.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Push.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Repeat.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Learn.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Build.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Push.</h1>
-                <h1 id="element" class="text-4xl font-graphikBold text-blue-600">Repeat.</h1>
+    <section class="container mx-auto mt-16">
+
+        <div class="md:px-24 space-y-8 py-6  mt-16 px-0">
+            <div
+                class="bg-blue-100 dark:bg-gray-800 mx-0 px-16 py-8 flex items-center rounded-md px-0 flex space-x-12 overflow-x-hidden z-20 bg-opacity-20 dark:bg-opacity-20">
+                <h1 id="element" class="listItem">Learn</h1>
+                <h1 id="element" class="listItem">Build</h1>
+                <h1 id="element" class="listItem">Push</h1>
+                <h1 id="element" class="listItem">Repeat</h1>
+                <h1 id="element" class="listItem">Learn</h1>
+                <h1 id="element" class="listItem">Build</h1>
+                <h1 id="element" class="listItem">Push</h1>
+                <h1 id="element" class="listItem">Repeat</h1>
+                <h1 id="element" class="listItem">Learn</h1>
+                <h1 id="element" class="listItem">Build</h1>
+                <h1 id="element" class="listItem">Push</h1>
+                <h1 id="element" class="listItem">Repeat</h1>
+                <h1 id="element" class="listItem">Learn</h1>
+                <h1 id="element" class="listItem">Build</h1>
+                <h1 id="element" class="listItem">Push</h1>
+                <h1 id="element" class="listItem">Repeat</h1>
+            </div>
         </div>
 
     </section>
- 
+
+    <section id="">
+        <div class="container mx-auto md:px-24 space-y-8 py-6  mt-16 px-2">
+            <h1 class="section-title">Projects</h1>
+
+            <div class="flex flex-col items-center md:flex-row md:space-x-8 space-y-4 md:space-y-0 relative">
+
+
+                <div
+                    class="max-w-sm  p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Personal website V1</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-sm text-gray-700 dark:text-gray-400">The first version of my personal website built using HTML5 and TailwindCSS, open-source in github and deployed in netlify</p>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="flex items-center  justify-center text-blue-600 hover:underline">
+                            View code
+                                <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+                            </a>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm  p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">C Landing page</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-sm text-gray-700 dark:text-gray-400">The first version of my personal website built using HTML5 and TailwindCSS, open-source in github and deployed in netlify</p>
+                        <div class="flex space-x-4">
+                            <a href="#"
+                                class="inline-flex items-center  px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Demo
+                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="flex items-center  justify-center text-blue-600 hover:underline">
+                            View code
+                                <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
+                            </a>
+                        </div>
+                </div>
+                
+                <div class="bg-orange-600 w-96 h-96 absolute -top-10 left-10 blur-3xl -z-10 overflow-hidden rounded-full bg-opacity-20">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!--******************************************************************************************-->
     <!--Let's connect -->
-    
+
     <section id="contact">
         <div class="container mx-auto md:px-24 space-y-8 py-6  mt-16 px-2">
             <h1 class="section-title">Let's Connect</h1>
 
             <div class="flex flex-col md:flex-row justify-between text-slate-700 px-4 dark:text-white">
-                <ul>
-                    <li class="listItem">
-                        I'm mostly active on <strong> Twitter</strong> and <strong>LinkedIn</strong> .
-                    </li>
-                    <li class="listItem">
-                        I create content on <strong>Instagram</strong> .
-                    </li>
-                    <li class="listItem">
-                        Read my articles on <strong>Hashnode</strong> .
-                    </li>
-                </ul>
-
                 
+
+
             </div>
         </div>
     </section>
 
-    
+
 
     <!--************************************************************************************************-->
 
     <!--Footer-->
     <footer>
         <div
-            class="container flex justify-center items-center flex-col mx-auto px-6 py-6 space-y-4 bg-blue-800 text-white font-graphikRegular mt-6 md:mt-24 dark:text-white">
+            class="container flex justify-center items-center flex-col mx-auto px-6 py-6 mb-4 space-y-4 bg-slate-500 rounded-md text-slate-500 font-graphikRegular mt-6 md:mt-24 dark:text-white">
 
             <div class="flex space-x-4 mx-4">
                 <div>

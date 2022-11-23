@@ -30,24 +30,26 @@
 body{
     overflow-x: hidden;
 }
-
+.listItem{
+    @apply text-3xl font-graphikBold text-blue-600 dark:text-white list-item;
+}
 .menu-item{
     @apply font-graphikRegular text-lg hover:text-darkRed;
 }
 .main-heading{
-    @apply font-bold text-5xl md:text-5xl text-slate-700 font-graphikSuper dark:text-white;
+    @apply font-bold max-w-lg text-5xl md:text-5xl text-slate-700 font-graphikSuper dark:text-white;
 }
 .sub-heading{
     @apply font-graphikRegular text-darkBlue dark:text-gray-100;
 }
 .btn{
-    @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl focus:ring focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 mt-4 justify-center text-white hover:bg-blue-300 hover:text-blue-600;
+    @apply flex p-3 w-40 bg-blue-500 font-graphikBold rounded-xl focus:ring focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 dark:focus:ring-offset-slate-900 mt-4 justify-center text-white hover:bg-blue-300 hover:text-blue-600;
 }
 .description-paragraph{
-    @apply font-graphikRegular text-black dark:text-white text-sm lg:text-lg self-start m-0;
+    @apply font-graphikRegular max-w-lg text-black dark:text-white text-sm lg:text-lg self-start m-0;
 }
 .section-title{
-    @apply font-graphikBold text-4xl  space-y-6 px-4  text-darkRed dark:text-darkRed;
+    @apply font-graphikBold text-4xl  space-y-6 px-0  text-darkRed dark:text-white;
 }
 .tech-stack-item{
     @apply p-2 mx-1.5 my-1.5 w-fit  font-graphikBold text-white  bg-blue-500 rounded-xl;
@@ -67,15 +69,12 @@ body{
 .card-image{
     @apply rounded-t-md;
 }
-body{
+body, html{
     overflow-x: hidden;
-    overflow-x: hidden;
+   max-width: 100%;
 }
 body{
     @apply xl:px-64
-}
-.listItem{
-    @apply font-graphikRegular text-sm;
 }
 /* .pattern{
     @apply text-5xl font-graphikBold text-slate-500 dark:text-white;
@@ -107,5 +106,5 @@ body{
     }
 }
 .container #element {
-    animation: slide 25s linear infinite;
+    animation: slide 5s linear infinite;
 }
